@@ -1,0 +1,53 @@
+body {
+    background-color:  rgb(180, 250, 218);
+    text-align: center;
+    background: url(imagens/alimentos.jpg.png) no-repeat center center fixed;
+    background-color: rgba(0, 0, 0, 0.714);
+    background-blend-mode: overlay;
+    background-size: cover;
+
+}
+h1{
+    font: normal 22pt Arial bold;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(180, 250, 218);
+}
+h2{
+    font: normal 16pt Arial bold;
+    text-align: center;
+    font-weight: bold;
+}
+
+header {
+    color: rgb(2, 2, 1);
+    text-align: center;
+}
+
+section {
+    background: rgba(235, 232, 232, 0.882);
+    border-radius: 10%;
+    padding: 2%;
+    width: 30%;
+    margin: auto;
+    box-shadow: 10px 5px 10px rgba(255, 254, 254, 0.488);
+}
+
+#rodape {
+    height: 10%;
+    background: rgba(235, 232, 232, 0.882);
+    border-radius: 10%;
+    padding: 0,5%;
+    width: 33%;
+    margin: auto;
+    box-shadow: 10px 5px 10px rgba(255, 254, 254, 0.488);
+    }
+    
+    #linkedin{
+    text-align: center;
+    }
+
+    #github{
+    text-align: center;
+
+    }

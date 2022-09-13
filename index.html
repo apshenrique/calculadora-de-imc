@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body background="imagens/alimentos.jpg.png">
+<h1>
+    Calcule o seu IMC
+</h1>
+<section>
+    <h2>
+        Insira as informações abaixo
+    </h2>
+    
+    <div>
+        <p>Peso: <input type="number" name="Peso" id="txtpeso" style="width: 80px;" max="300" min="1" required placeholder="kg"> </p>
+        <p>Altura: <input type="number" name="Altura" id="txtaltura" style="width: 80px;" max="3" min="1" required placeholder="Ex: 1,70"> (m)</p>        
+        <p><input type="button" value="Calcular" onclick="calcular()"></p>
+    </div>
+    
+    <div id="txtresultado"></div>
+    <div id="txtrecomendacoes"></div>
+
+</section>
+
+<footer id='rodape'>   
+    <p>Desenvolvido por: Henrique Alves</p>
+    <p id="linkedin"><a href="https://www.linkedin.com/in/henriqueaps/" target="_blank">LinkedIn</a></p>
+    <p id="github"><a href="https://github.com/apshenrique" target="_blank">GitHub</a></p>
+</footer>
+
+<script src="script.js"></script>    
+</body>
+</html>
